@@ -1,0 +1,36 @@
+body {
+  font-family: 'Alatsi', sans-serif;
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  display: block;
+  font-size: 9vw;
+  color: white;
+}
+
+.subTitle {
+  font-style: italic;
+  display: block;
+  text-align: center;
+  font-size: 6vw;
+  color: white;
+}
+
+canvas {
+  width: 100%;
+}
