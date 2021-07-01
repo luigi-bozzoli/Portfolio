@@ -1,36 +1,29 @@
-body {
-  font-family: 'Alatsi', sans-serif;
-  margin: 0;
-  overflow: hidden;
-  background: black;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+#particles-js {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
-.title {
-  display: block;
-  font-size: 9vw;
-  color: white;
-}
-
-.subTitle {
-  font-style: italic;
-  display: block;
-  text-align: center;
-  font-size: 6vw;
-  color: white;
-}
-
-canvas {
   width: 100%;
+  height: 100%;
+  background: #000000;
 }
+
+/*
+.text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #fff;
+  max-width: 90%;
+  padding: 2em 3em;
+  /*background: rgba(0, 0, 0, 0.4);*/
+  /*
+  text-shadow: 0px 0px 2px #131415;
+  font-family: "Open Sans", sans-serif;
+  text-align:center;
+}*/
+
+/*
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  letter-spacing: -1px;
+}*/
