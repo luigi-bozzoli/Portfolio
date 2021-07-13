@@ -4,27 +4,58 @@
 <title>Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://use.fontawesome.com/4c7b65dfe5.js"></script>
 <link  rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css" rel="stylesheet">
 <link rel="stylesheet" href="../css/index.css">
-<link rel="stylesheet" href="../css/chatbot.css">
-
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/userCard.css">
 </head>
 <body>
 
-  
-
   <div id="particles-js"></div>
-
-  <div class="text">
-    <h1>Luigi Bozzoli</h1>
-    <h5>Computer science student</h5>
+  <div class="user__card">
+<div class="bg">
+  <div class="perfil"><i class="fa fa-flickr"></i></div>
+  <div class="aside"><i class="fa fa-bars"></i></div>
   </div>
+  <div class="main__content">
+    <div class="upper__card">
+      <div class="info">
+        <h3>Luigi Bozzoli</h3>
+        <p class="country"><i class="fa fa-map-marker"></i> Italy</p>
+      </div><!-- .info -->
+      <div class="social">
+
+        <div class="portfolio">
+               <a id = "portfolioButton"  href="portfolio.html" class="btn"><i class="fa fa-briefcase"></i> Portfolio</a>
+        </div><!-- .portfolio -->
+        <div class="icons__menu">
+          <div onclick="window.open('https://www.linkedin.com/in/luigi-bozzoli-0810211b7');" class="icons"><i class="fa fa-linkedin"></i></div>
+          <div onclick="window.open('https://github.com/luigi-bozzoli');" class="icons"><i class="fa fa-github"></i></div>
+          <div onclick="window.open('https://www.instagram.com/luigi.bozzoli/');" class="icons"><i class="fa fa-instagram"></i></div>
+        </div><!-- .icons__menu -->
+      </div><!-- .social -->
+    </div><!-- .upper__card -->
+    <div class="down__card">
+      <div class="bio">
+        <h3>About</h3>
+        <p>I am a computer science student who loves programming and learning new technologies.</p>
+        <h3>Hobbies</h3>
+        <p>I spend my leisure time reading books or practicing calisthenics.</p>
+        <p class = "contact"><a href="#" class="btn"><i class="fa fa-comments"></i> Contact me</a></p>
+      </div>
+    </div>
+  </div><!-- .main__content -->
+</div>
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="../js/particles.js"></script>
 <script src="../js/index.js"></script>
+<script src="../js/userCard.js"></script>
 <script src="../js/chatbot/chatbot.js"></script>
 </body>
 </html>
